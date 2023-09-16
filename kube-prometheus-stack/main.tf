@@ -16,7 +16,7 @@ resource "helm_release" "kube_prometheus" {
 
   set {
     name  = "grafana.adminPassword"
-    value = "your_grafana_password"
+    value = "manny"
   }
 }
 
